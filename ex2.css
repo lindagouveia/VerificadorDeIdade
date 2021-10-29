@@ -1,0 +1,53 @@
+body{
+
+    background: rgb(0, 110, 255);
+}
+
+#titulo{
+
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#fieldset{
+
+    background: white;
+    width: 25%;
+    border-radius: 1em;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.705);
+    margin: auto;
+    border: 0;
+}
+
+.campo{
+
+    padding: 10px;
+}
+
+.campo label{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#res{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#foto{
+
+    width: 250px;  
+    height: 250px;
+    border-radius: 50%;
+}
+
+#footer{
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+}
+

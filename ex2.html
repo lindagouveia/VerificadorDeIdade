@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex2.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header id="titulo">
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <form>
+        <fieldset id="fieldset">
+            <div class="campo">
+                <label>Ano de Nascimento:</label>
+                <input type="number" name="txtano" id="txtano" >
+            </div>
+
+            <div class="campo">
+                <label>Sexo:</label>
+                <input type="radio" name="sexo" value="Feminino"> Feminino
+                <input type="radio" name="sexo" value="Masculino"> Masculino
+            </div>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+
+            <div id="res">
+                <p>Preencha os dados acima para ver o resultado</p>
+               
+                 <img id="foto" src="bbmenina.jpg" alt="">
+
+            </div>
+        </fieldset>
+    </form>
+    <footer id="footer">@LindaGouveia</footer>
+    <script src="ex2.js"></script>
+</body>
+</html>
